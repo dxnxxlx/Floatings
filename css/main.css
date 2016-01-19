@@ -1,0 +1,55 @@
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+.caja{
+	
+	border: 2px solid #CCCCCC;
+
+}
+
+.cajita{
+	width: 25%;
+	height: 100px;
+	float: left;
+
+
+}
+
+.amarilla{
+	background-color: #FFFF00;
+
+}
+
+.azul{
+	background-color: #3A81BA;
+}
+
+.roja{
+	background-color: #ED2251;
+	box-sizing: content-box;
+
+
+}
+
+img{
+	height: 60%;
+	position: relative;
+	left: 50%;
+}
+
+.gato{
+	position: relative;
+	left: 50%;
+	top: 20%;
+	
+
+	
+}
+
